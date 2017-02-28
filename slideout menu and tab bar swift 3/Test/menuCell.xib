@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuOptionCell" id="3uG-55-9ut" customClass="menuOptionCell" customModule="Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3uG-55-9ut" id="hk2-CZ-B8o">
+                <frame key="frameInset" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uit-BF-SYO">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Uit-BF-SYO" firstAttribute="leading" secondItem="hk2-CZ-B8o" secondAttribute="leading" constant="8" id="MxF-2p-VUC"/>
+                    <constraint firstAttribute="trailing" secondItem="Uit-BF-SYO" secondAttribute="trailing" constant="8" id="qRA-Fh-fOZ"/>
+                    <constraint firstItem="Uit-BF-SYO" firstAttribute="centerY" secondItem="hk2-CZ-B8o" secondAttribute="centerY" id="wSF-gc-Kaf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="optionLabel" destination="Uit-BF-SYO" id="FZA-Af-zLl"/>
+            </connections>
+            <point key="canvasLocation" x="14.5" y="-106"/>
+        </tableViewCell>
+    </objects>
+</document>

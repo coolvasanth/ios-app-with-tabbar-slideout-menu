@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favorites View Controller-->
+        <scene sceneID="s0e-i1-kVT">
+            <objects>
+                <viewController storyboardIdentifier="favorite" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3wl-mO-rCa" customClass="FavoritesViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DkX-k3-xbC"/>
+                        <viewControllerLayoutGuide type="bottom" id="953-xQ-jk8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HgO-qa-his" customClass="Favor">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorite Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rA-aR-9XD">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57687776999999996" blue="0.02295027447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2rA-aR-9XD" secondAttribute="trailing" constant="8" id="7vZ-iF-Lcz"/>
+                            <constraint firstItem="2rA-aR-9XD" firstAttribute="centerY" secondItem="HgO-qa-his" secondAttribute="centerY" id="Xwe-a6-VrZ"/>
+                            <constraint firstItem="2rA-aR-9XD" firstAttribute="leading" secondItem="HgO-qa-his" secondAttribute="leading" constant="8" id="cfU-gk-jM9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reH-a0-LAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-263.19999999999999" y="107.49625187406298"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="Ixz-Xb-VWP">
+            <objects>
+                <viewController storyboardIdentifier="history" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X3F-7k-598" customClass="HistoryViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qfp-I2-vwF"/>
+                        <viewControllerLayoutGuide type="bottom" id="WXP-KW-QUT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n7J-v4-yg7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q42-T9-edD">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q42-T9-edD" firstAttribute="leading" secondItem="n7J-v4-yg7" secondAttribute="leading" constant="8" id="26B-72-Atz"/>
+                            <constraint firstAttribute="trailing" secondItem="q42-T9-edD" secondAttribute="trailing" constant="8" id="nab-Nc-YXZ"/>
+                            <constraint firstItem="q42-T9-edD" firstAttribute="centerY" secondItem="n7J-v4-yg7" secondAttribute="centerY" id="o1H-cM-OGl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTq-Cd-MQ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="107"/>
+        </scene>
+        <!--Accounts View Controller-->
+        <scene sceneID="gGs-uh-1Gr">
+            <objects>
+                <viewController storyboardIdentifier="accounts" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7FU-L4-ezm" customClass="AccountsViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kl0-1c-bBo"/>
+                        <viewControllerLayoutGuide type="bottom" id="TZe-am-mM4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gjF-3E-Jc7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accounts Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abD-lR-PaQ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="abD-lR-PaQ" firstAttribute="leading" secondItem="gjF-3E-Jc7" secondAttribute="leading" constant="8" id="Sc3-cM-Jny"/>
+                            <constraint firstItem="abD-lR-PaQ" firstAttribute="centerY" secondItem="gjF-3E-Jc7" secondAttribute="centerY" id="bUX-6d-k0Z"/>
+                            <constraint firstAttribute="trailing" secondItem="abD-lR-PaQ" secondAttribute="trailing" constant="8" id="ize-wv-1Wt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sB5-xR-Q7B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118" y="107"/>
+        </scene>
+        <!--Logout View Controller-->
+        <scene sceneID="HXb-oX-htD">
+            <objects>
+                <viewController storyboardIdentifier="logout" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hej-Ar-YXA" customClass="LogoutViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CDM-wd-vEv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ewh-if-gdD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a5q-ra-vWg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logout Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOY-iY-WE6">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yOY-iY-WE6" secondAttribute="trailing" constant="8" id="J2U-ct-mcQ"/>
+                            <constraint firstItem="yOY-iY-WE6" firstAttribute="leading" secondItem="a5q-ra-vWg" secondAttribute="leading" constant="8" id="MGb-Gt-p1b"/>
+                            <constraint firstItem="yOY-iY-WE6" firstAttribute="centerY" secondItem="a5q-ra-vWg" secondAttribute="centerY" id="Uyf-Ls-tAz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2R-vr-7P1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1817" y="107"/>
+        </scene>
+    </scenes>
+</document>
